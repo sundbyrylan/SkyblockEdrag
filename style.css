@@ -1,0 +1,39 @@
+@font-face {
+    font-family: mojang;
+    src: url(fonts/Mojang-Regular.ttf);
+}
+
+#body{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: mojang;
+    padding: 10px;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    border-bottom-style: dotted;
+    border-radius: 150px;
+    padding-bottom: 10px;
+}
+
+#icon{
+    display: flex;
+    justify-content: center;
+}
+
+#content{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+#stats{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid;
+    width: 160px;
+    justify-content: left;
+    display: flex;
+    margin-top:100px;
+    margin-left: 830px;
+}
